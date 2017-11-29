@@ -23,9 +23,9 @@ Execute labellio_classify command providing the directory of the model, the dire
 ```sh
 $ python classify.py model_directory image_directory network_name
 ...
-images/label01.jpg	"label01":0.81,"label99":0.10,"label02":0.05,"label98":0.03,"label03":0.01	
-images/label02.jpg	"label02":0.93,"label01":0.05,"label03":0.01,"label99":0.00,"label04":0.00
-images/label03.jpg	"label03":0.74,"label02":0.20,"label04":0.02,"label01":0.02,"label05":0.01
-images/label04.jpg	"label04":0.61,"label03":0.22,"label05":0.10,"label02":0.01,"label06":0.01
-images/label05.jpg	"label05":0.56,"label06":0.7,"label04":0.05,"label07":0.03,"label03":0.03
+images/label01.jpg	{('label01', 0.81), ('label99', 0.1), ('label02', 0.05), ('label98', 0.03), ('label03', 0.01)}
+images/label02.jpg	{('label02', 0.93), ('label01', 0.05), ('label03', 0.01), ('label99', 0.0), ('label04', 0.0)}
+images/label03.jpg	{('label03', 0.74), ('label02', 0.2), ('label04', 0.02), ('label01', 0.02), ('label05": 0.01)}
+images/label04.jpg	{('label04', 0.61), ('label03', 0.22), ('label05', 0.1), ('label02', 0.01), ('label06": 0.01)}
+images/label05.jpg	{('label05', 0.56), ('label06', 0.2), ('label04', 0.05), ('label07', 0.03), ('label03": 0.03)}
 ```
